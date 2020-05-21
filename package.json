@@ -1,0 +1,27 @@
+{
+	"name": "vscode-repro-on-will-rename",
+	"displayName": "vscode-repro-on-will-rename",
+	"description": "",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.45.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./out/extension.js",
+	"contributes": {},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./"
+	},
+	"devDependencies": {
+		"typescript": "^3.8.3",
+		"@types/vscode": "^1.45.0",
+		"@types/node": "^10.12.21"
+	}
+}
